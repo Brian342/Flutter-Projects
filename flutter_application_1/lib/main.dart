@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 
-String getFullName(String firstName, String lastName){
-  return '$firstName $lastName' ;
+String getFullName(String firstName, String lastName) =>
+   '$firstName $lastName' ;
+
+void printName(){
+
 }
 
 void main() {
