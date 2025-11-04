@@ -6,16 +6,10 @@ void main() {
 }
 
 void test(){
-  final name = "Foo";
-  if (name == "Foo"){
-    print('Yes this is Foo');
-  } else if (name != "Bar"){
-    print('This value is not Bar');
-  }
-  else{
-    print("i don't know who it is");
-  }
-  // if (name == "Foo") print('Yes this is Foo');
+  var name = ["Foo", "Bar", "Baz"];
+  print(name.length);
+  name.add("My Name");
+  print(name);
 }
 
 class MyApp extends StatelessWidget {
