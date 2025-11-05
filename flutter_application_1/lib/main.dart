@@ -6,10 +6,8 @@ void main() {
 }
 
 void test(){
-  var names = ['ar', 'fo', 'na'];
-  print(names.length);
-  names.add("My Name");
-  print(names);
+  const names = {'ar', 'fo', 'na', 'pr'};
+  
 }
 
 class MyApp extends StatelessWidget {
