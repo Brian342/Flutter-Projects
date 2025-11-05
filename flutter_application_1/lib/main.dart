@@ -6,9 +6,10 @@ void main() {
 }
 
 void test(){
-  final age = 24;
-  final halfOfAge = age / 2;
-  print(halfOfAge);
+  var names = ['ar', 'fo', 'na'];
+  print(names.length);
+  names.add("My Name");
+  print(names);
 }
 
 class MyApp extends StatelessWidget {
