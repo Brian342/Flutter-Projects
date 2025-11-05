@@ -6,10 +6,8 @@ void main() {
 }
 
 void test(){
-  var name = ["Foo", "Bar", "Baz"];
-  print(name.length);
-  name.add("My Name");
-  print(name);
+  final age = 24;
+  final halfOfAge = age / 2;
 }
 
 class MyApp extends StatelessWidget {
