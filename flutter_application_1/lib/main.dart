@@ -6,12 +6,10 @@ void main() {
 }
 
 void test(){
-  var persons = {'age':20, 
-  'name':'Foo'
-  };
-  print(persons);
-  persons['name'] = 'Trump';
-  print(persons);
+  String? name = null;
+  print(name);
+  name = 'foo';
+  name = null;
   
   
 }
