@@ -20,9 +20,11 @@ const lastname = '';
 
 void test(){
   //creating instatiation
-  final person = Person();
-  person.run();
-  person.breath();
+  // final person = Person();
+  // person.run();
+  // person.breath();
+  final foo = Person(); // creating an object
+
   
 }
 
