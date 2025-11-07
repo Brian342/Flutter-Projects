@@ -6,7 +6,11 @@ void main() {
 }
 
 void test(){
-  const names = {'ar', 'fo', 'na', 'pr'};
+  var names = {'ar', 'fo', 'na', 'pr'};
+  names.add('ar');
+  names.add('fo');
+  names.add('na');
+  print(names);
   
 }
 
