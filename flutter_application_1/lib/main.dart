@@ -6,11 +6,13 @@ void main() {
 }
 
 void test(){
-  var names = {'ar', 'fo', 'na', 'pr'};
-  names.add('ar');
-  names.add('fo');
-  names.add('na');
-  print(names);
+  var persons = {'age':20, 
+  'name':'Foo'
+  };
+  print(persons);
+  persons['name'] = 'Trump';
+  print(persons);
+  
   
 }
 
