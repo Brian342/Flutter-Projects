@@ -4,13 +4,25 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
 }
+class Person{
+  void run(){
+    print('Running');
+  }
+
+  void breath(){
+    print('Breathing');
+  }
+
+}
+const firstname = '';
+const lastname = '';
+
 
 void test(){
-  String? name = null;
-  print(name);
-  name = 'foo';
-  name = null;
-  
+  //creating instatiation
+  final person = Person();
+  person.run();
+  person.breath();
   
 }
 
